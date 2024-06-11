@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Virgil";
+    src: url("../fonts/Virgil.woff2");
+    font-display: swap;
+}
+
+body {
+    height: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.virgil {
+    font-family: Virgil;
+}
+
+.peg-dst { 
+    filter: drop-shadow(0px 0px 10px blue);
+}
+
+.peg-jmp { 
+    filter: drop-shadow(0px 0px 10px red);
+}
